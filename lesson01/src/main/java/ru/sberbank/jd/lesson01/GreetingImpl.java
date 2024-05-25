@@ -17,8 +17,6 @@ public class GreetingImpl implements Greeting {
         return "Yuliya";
     }
 
-    ;
-
     /**
      * Получение фамилии.
      *
@@ -27,8 +25,6 @@ public class GreetingImpl implements Greeting {
     public String getLastName() {
         return "Polozova";
     }
-
-    ;
 
     /**
      * Получение года рождения.
@@ -39,8 +35,6 @@ public class GreetingImpl implements Greeting {
         return 1990;
     }
 
-    ;
-
     /**
      * Получение набора хобби.
      *
@@ -49,8 +43,6 @@ public class GreetingImpl implements Greeting {
     public Collection<String> getHobbies() {
         return List.of("reading", "knitting");
     }
-
-    ;
 
     /**
      * Получение имени репозитория.
@@ -61,8 +53,6 @@ public class GreetingImpl implements Greeting {
         return "https://github.com/julpolozova/home-assignments-0224.git";
     }
 
-    ;
-
     /**
      * Получение телефона.
      *
@@ -72,8 +62,6 @@ public class GreetingImpl implements Greeting {
         return "89092241898";
     }
 
-    ;
-
     /**
      * Получение набора ожиданий от курса.
      *
@@ -82,6 +70,4 @@ public class GreetingImpl implements Greeting {
     public Collection<String> getCourseExpectations() {
         return List.of("изучить java до уровня junior", "применить знания на практике");
     }
-
-    ;
 }
